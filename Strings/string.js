@@ -14,3 +14,9 @@ console.log("Escape Sequences")
 
 let fruit = 'banana\'s'
 console.log(fruit)
+
+
+console.log("Strings are immutable")
+let friend = 'Rupali'
+friend[friend.lengthv-1] = 'y'
+console.log(friend) 
