@@ -23,8 +23,8 @@ console.log(myName)
 console.log()
 
 console.log("Concatenation in a string")
-let myCrushName = 'Rupali'
-myCrushName = myCrushName.concat(' Barnwal')
+let myCrushName = 'Pritha'
+myCrushName = myCrushName.concat(' Sri')
 console.log(myCrushName)
 console.log()
 
