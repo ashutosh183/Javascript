@@ -3,7 +3,11 @@ const ashutosh = {
     lastName: "Pandey",
     age: 25,
     job: 'Software Developer',
-    friends: ['Rupali', 'Dheeraj']
+    friends: ['Rupali', 'Dheeraj'],
+    isMajor: true,
+    getSalary: function(){
+        return 'You are not allowed to know about salary information.'
+    }
 };
 
 console.log(ashutosh)
@@ -14,6 +18,8 @@ console.log(ashutosh['firstName'])
 
 //bracket notation -> if we have to calculate a property name
 //when we need a property from the user input.(if property is present or not)
+
+
 
 
 let interestedIn = 'salary'
@@ -36,3 +42,6 @@ ashutosh.location = 'Bangalore'
 ashutosh['country'] = 'India'
 
 console.log(ashutosh)
+
+console.log(ashutosh.getSalary())
+console.log(ashutosh['getSalary']())
